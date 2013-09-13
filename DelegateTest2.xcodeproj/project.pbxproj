@@ -18,6 +18,8 @@
 		C4CAC1E617E2EAAF0032D5D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CAC1E517E2EAAF0032D5D0 /* Default-568h@2x.png */; };
 		C4CAC1E917E2EAB00032D5D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CAC1E717E2EAB00032D5D0 /* MainStoryboard.storyboard */; };
 		C4CAC1EC17E2EAB00032D5D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CAC1EB17E2EAB00032D5D0 /* ViewController.m */; };
+		C4CAC1FC17E2F97E0032D5D0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CAC1FA17E2F97E0032D5D0 /* SecondViewController.m */; };
+		C4CAC1FD17E2F97E0032D5D0 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CAC1FB17E2F97E0032D5D0 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		C4CAC1E817E2EAB00032D5D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C4CAC1EA17E2EAB00032D5D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4CAC1EB17E2EAB00032D5D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4CAC1F817E2F57F0032D5D0 /* GetContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetContent.h; sourceTree = "<group>"; };
+		C4CAC1F917E2F97E0032D5D0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C4CAC1FA17E2F97E0032D5D0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C4CAC1FB17E2F97E0032D5D0 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				C4CAC1EA17E2EAB00032D5D0 /* ViewController.h */,
 				C4CAC1EB17E2EAB00032D5D0 /* ViewController.m */,
 				C4CAC1D617E2EAAF0032D5D0 /* Supporting Files */,
+				C4CAC1F817E2F57F0032D5D0 /* GetContent.h */,
+				C4CAC1F917E2F97E0032D5D0 /* SecondViewController.h */,
+				C4CAC1FA17E2F97E0032D5D0 /* SecondViewController.m */,
+				C4CAC1FB17E2F97E0032D5D0 /* SecondViewController.xib */,
 			);
 			path = DelegateTest2;
 			sourceTree = "<group>";
@@ -163,6 +173,7 @@
 				C4CAC1E417E2EAAF0032D5D0 /* Default@2x.png in Resources */,
 				C4CAC1E617E2EAAF0032D5D0 /* Default-568h@2x.png in Resources */,
 				C4CAC1E917E2EAB00032D5D0 /* MainStoryboard.storyboard in Resources */,
+				C4CAC1FD17E2F97E0032D5D0 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +187,7 @@
 				C4CAC1DC17E2EAAF0032D5D0 /* main.m in Sources */,
 				C4CAC1E017E2EAAF0032D5D0 /* AppDelegate.m in Sources */,
 				C4CAC1EC17E2EAB00032D5D0 /* ViewController.m in Sources */,
+				C4CAC1FC17E2F97E0032D5D0 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

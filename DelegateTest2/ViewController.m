@@ -13,6 +13,20 @@
 @end
 
 @implementation ViewController
+@synthesize label = _label;
+ 
+-(void)getLableContent:(NSString *)str
+{
+    self.label.text = str;
+}
+
+-(IBAction)jump:(id)sender
+{
+    SecondViewController* secondVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    secondVC.delegate = self;
+    [self presentViewController:secondVC animated:YES completion:nil];
+
+}
 
 - (void)viewDidLoad
 {

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
+#import "GetContent.h"
+@interface ViewController : UIViewController<GetContent>
 
-@interface ViewController : UIViewController
+@property(strong,nonatomic) IBOutlet UILabel* label;
+ 
+
+-(IBAction)jump:(id)sender;
 
 @end
